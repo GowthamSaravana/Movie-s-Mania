@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <style>
+  .bg-1 {
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .id{
+    background:url("https://cdn.wallpapersafari.com/75/55/MlfybA.jpg");
+  }
+
+  </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    
+      <link rel="stylesheet" href="styling.css">
+        <title>Movie</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body class=" bg-1">
+        <div class="bg-2 jumbotron text-center">
+            <h2 style="color:#006666; font-family: 'Lobster', cursive; font-size:40px;">MOVIE'S-MANIA</style></h2>
+        </div>
+        <div class="container">
+
+
+            <form  action="searchservlet" method="POST">
+                <div class="form-group">
+                <label for="movie">
+                Enter movie name:</label>
+                </div>
+                <input type="text" class="form-control" id="movie" placeholder="Enter movie name" name="textfield">
+                <br></br>
+                <center><input class="btn btn-default" type="submit" value="search"></center>
+
+            </form>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 10 Jul, 2019, 7:47:17 PM
+    Author     : USER
+*/
+
+
+body {
+    background:url("https://cdn.wallpapersafari.com/75/55/MlfybA.jpg");
+}
+
+.button {
+  background-color: greenyellow; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 20px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+
+.id {
+  font-size:20px;
+  border: 1px solid powderblue;
+  padding: 30px;
+  margin: 40px 20px;
+}
